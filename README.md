@@ -13,30 +13,30 @@ It is not an unique error right now and I will fix the errors as soon as I can.
 
 ## Goal
   1) Implementing various kinds of the RRT
-    - 2D/3D RRT
-    - 2D/3D RRT*
-    - 2D/3D Bidirectional RRT*
-    - 2D/3D Heuristic Bidirectional RRT*
-    - Parti-game directed RRTs (PDRRTs)
-    - CL-RRT
-    - RRG
-    - RRT*-Smart
-    - A*-RRT, A*-RRT*
-    - RRT*FN
-    - RRT*-AR
-    - Informed RRT*
-    - Rea-Time RRT* (RT-RRT*)
-    - RRTX, RRT#
-    - Theta*-RRT
-    - RRT* FND
-    - RRT-GPU
-    - APF-RRT
-    - CERRT
-    - MVRRT*
-    - RRT-Blossom
-    - TB-RRT
+  - 2D/3D RRT
+  - 2D/3D RRT*
+  - 2D/3D Bidirectional RRT*
+  - 2D/3D Heuristic Bidirectional RRT*
+  - Parti-game directed RRTs (PDRRTs)
+  - CL-RRT
+  - RRG
+  - RRT*-Smart
+  - A*-RRT, A*-RRT*
+  - RRT*FN
+  - RRT*-AR
+  - Informed RRT*
+  - Rea-Time RRT* (RT-RRT*)
+  - RRTX, RRT#
+  - Theta*-RRT
+  - RRT* FND
+  - RRT-GPU
+  - APF-RRT
+  - CERRT
+  - MVRRT*
+  - RRT-Blossom
+  - TB-RRT
     
   2) Applying a proper RRT approach to generate trajectory for the car-like robot on the 3D matrix
   
-### 2020-10-01
+##### 2020-10-01
 The initial commit of 2D RRT
