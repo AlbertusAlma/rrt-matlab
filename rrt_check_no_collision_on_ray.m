@@ -1,6 +1,8 @@
 function [Ray, ColDecision] = rrt_check_no_collision_on_ray(QNew, QNear, Map)
-%CHECK_NO_COLLISION_ON_RAY 이 함수의 요약 설명 위치
-%   자세한 설명 위치
+%RRT_CHECK_NO_COLLISION_ON_RAY get pixels consist of the edge from Bresenham method and check
+%whether the edge causes collision
+%   Input: q_new, q_nearest, map
+%   Output: ray, collision_decision
 if QNew(1) == QNear(1)
     Ray = [QNear(1) QNear(2)];
     if QNew(2) > QNear(2)

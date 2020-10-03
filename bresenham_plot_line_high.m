@@ -1,6 +1,7 @@
 function [Ray] = bresenham_plot_line_high(X0, Y0, X1, Y1)
-%BRESENHAM_PLOT_LINE_LOW 이 함수의 요약 설명 위치
-%   자세한 설명 위치
+%BRESENHAM_PLOT_LINE_HIGH Bresenham plot line function when dy/dx > 1
+%   Input: x0, y0, x1, y1
+%   Output: Ray
 DelX = X1 - X0;
 DelY = Y1 - Y0;
 XIdx = 1;

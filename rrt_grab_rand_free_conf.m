@@ -1,6 +1,8 @@
 function [QRand] = rrt_grab_rand_free_conf(Map)
-%UNTITLED 이 함수의 요약 설명 위치
-%   자세한 설명 위치
+%RRT_GRAB_RAND_FREE_CONF Grab a random configuration space which is still
+%free from obstacles
+%   Input: Map
+%   Output: q_random
 if size(size(Map),2) == 2
     while 1
         QRand = [randi(size(Map,1)), randi(size(Map,2))]

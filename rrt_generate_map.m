@@ -1,10 +1,10 @@
 function [Map] = rrt_generate_map(Dimension, Size, StartConfiguration, StopConfiguration, Obstacles)
-%UNTITLED Generate 2D or 3D dimensional map with starting
+%RRT_GENERATE_MAP Generate 2D or 3D dimensional map with starting
 %configuration, stop configuration, and obstacles.
-%   Input: dimension(2D/3D), starting configuration, stop configuration,
+%   Input: dimension(2D/3D), size, starting configuration, stop configuration,
 %   obstacles.
-%   output: Map(0: space, 1: starting configuration, 2: stop configuration, 3:
-%   obstacles)
+%   output: Map(0: empty space, 1 ~ (n-1): starting configuration, -1/n: stop configuration, -2:
+%   obstacles, -3: edge)
 if Dimension == 2
     Map=zeros(Size(1), Size(2));
     Map(StartConfiguration(1), StartConfiguration(2)) = 1;

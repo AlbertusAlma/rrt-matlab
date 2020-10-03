@@ -1,6 +1,7 @@
 function [QNear] = rrt_find_nearest_vertex(QRand, G)
-%FIND_NEAREST_VERTEX 이 함수의 요약 설명 위치
-%   자세한 설명 위치
+%RRT_FIND_NEAREST_VERTEX find the nearest vertexes from RRT to q_random
+%   Input: q_random, G(RRT)
+%   Output: q_nearest
 if size(QRand, 2) == 2
     Distance = G - QRand;
     Distance = Distance(:,1).^2+Distance(:,2).^2;
